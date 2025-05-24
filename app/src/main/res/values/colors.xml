@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="KolorCzcionek">#2A2C35</color>
+    <color name="KolorNiePHasła">#FF0E0E</color>
+    <color name="KolorPaleta1">#A6F69F</color>
+    <color name="KolorPaleta2">#A7BAED</color>
+    <color name="KolorPaleta3">#F3FBA0</color>
+    <color name="KolorPaleta4">#D7A7ED</color>
+    <color name="KolorPaleta5">#EDC0A7</color>
+    <color name="KolorMotywCiemnyTekst">#E7EFE7</color>
+    <color name="KolorMotywCiemnyTło">#2A2C35</color>
+    <color name="KolorMotywCiemnyIkony">#E7EFE7</color>
+    <color name="KolorZarejestrujSie">#05B4FF</color>
+    <color name="Kolortlo1">#509DDC</color>
+    <color name="Kolortlo2">#DC5050</color>
+    <color name="Kolortlo3">#CC9E80</color>
+    <color name="Kolortlo4">#AD63D3</color>
+    <color name="Kolortlo5">#EBCD79</color>
+</resources>
