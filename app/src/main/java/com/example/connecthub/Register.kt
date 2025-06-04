@@ -1,7 +1,9 @@
 package com.example.connecthub
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.MotionEvent
+import android.widget.Button
 import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.Toast
@@ -51,6 +53,12 @@ class Register : AppCompatActivity() {
                 }
             }
             true
+        }
+
+        val register_complete = findViewById<Button>(R.id.register_complete_button)
+        register_complete.setOnClickListener {
+            val intent = Intent(this, Register::class.java)
+            startActivity(intent)
         }
 
     }

@@ -9,36 +9,21 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class MainActivity : AppCompatActivity() {
+class Register_2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
-
+        setContentView(R.layout.activity_register_2)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
 
-        val login = findViewById<Button>(R.id.login_button)
-        login.setOnClickListener {
-            val intent = Intent(this, Register::class.java)
+        val rewert_to_login = findViewById<TextView>(R.id.rewert_to_login_button)
+        rewert_to_login.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
-
-        val register=findViewById<TextView>(R.id.register)
-        register.setOnClickListener {
-            val intent = Intent(this, Register::class.java)
-            startActivity(intent)
-        }
-
-        val password_reset=findViewById<TextView>(R.id.password_reset)
-        password_reset.setOnClickListener {
-            val intent = Intent(this, Password_reminder::class.java)
-            startActivity(intent)
-        }
-
     }
-
 }

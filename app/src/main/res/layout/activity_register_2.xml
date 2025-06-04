@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register_2">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="173dp"
+        android:layout_height="216dp"
+        android:layout_marginStart="292dp"
+        android:layout_marginBottom="716dp"
+        android:rotation="185"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/arrow_up_blue" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="141dp"
+        android:layout_height="160dp"
+        android:layout_marginEnd="316dp"
+        android:layout_marginBottom="788dp"
+        android:rotation="65"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/arrow_up_yellow" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="196dp"
+        android:layout_marginBottom="176dp"
+        android:rotation="50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/arrow_up_violet" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginBottom="148dp"
+        android:rotation="20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/arrow_up_orange" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="169dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="760dp"
+        android:layout_marginEnd="264dp"
+        android:rotation="15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_up_red" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="304dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/connecthub"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/connecthub" />
+
+    <Button
+        android:id="@+id/rewert_to_login_button"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginBottom="348dp"
+        android:background="@drawable/arrow_up"
+        android:paddingTop="50dp"
+        android:text="POWRÓT"
+        android:textColor="#020202"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Motyw ciemny"
+        android:textSize="8sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch3" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="9dp"
+        android:checked="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="30dp"
+        android:text="Wiadomość z linkiem umożliwiającym aktywowanie konta została wysłana na podany email"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Potrzebujesz pomocy?"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.993" />
+</androidx.constraintlayout.widget.ConstraintLayout>
