@@ -1,10 +1,11 @@
-package com.example.connecthub
+package com.example.connecthub.ui
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.connecthub.R
 
 class Main_menu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
