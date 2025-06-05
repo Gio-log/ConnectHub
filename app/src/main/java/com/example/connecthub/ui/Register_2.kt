@@ -1,13 +1,13 @@
-package com.example.connecthub
+package com.example.connecthub.ui
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.connecthub.R
 
 class Register_2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,7 +22,7 @@ class Register_2 : AppCompatActivity() {
 
         val rewert_to_login = findViewById<TextView>(R.id.rewert_to_login_button)
         rewert_to_login.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, Login::class.java)
             startActivity(intent)
         }
     }

@@ -5,7 +5,63 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Register">
+    tools:context=".ui.Register">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="173dp"
+        android:layout_height="216dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginBottom="640dp"
+        android:rotation="185"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/arrow_up_blue" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="141dp"
+        android:layout_height="160dp"
+        android:layout_marginEnd="300dp"
+        android:layout_marginBottom="700dp"
+        android:rotation="65"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/arrow_up_yellow" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginBottom="148dp"
+        android:rotation="20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/arrow_up_orange" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="169dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="710dp"
+        android:layout_marginEnd="264dp"
+        android:rotation="15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_up_red" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="304dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/connecthub"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/connecthub" />
 
     <TextView
         android:id="@+id/textView17"
@@ -19,17 +75,6 @@
         app:layout_constraintHorizontal_bias="0.051"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout5" />
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="173dp"
-        android:layout_height="216dp"
-        android:layout_marginStart="292dp"
-        android:layout_marginBottom="716dp"
-        android:rotation="185"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/arrow_up_blue" />
 
     <Switch
         android:id="@+id/switch2"
@@ -66,17 +111,6 @@
         tools:srcCompat="@drawable/connecthub" />
 
     <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="141dp"
-        android:layout_height="160dp"
-        android:layout_marginEnd="316dp"
-        android:layout_marginBottom="788dp"
-        android:rotation="65"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/arrow_up_yellow" />
-
-    <ImageView
         android:id="@+id/imageView14"
         android:layout_width="150dp"
         android:layout_height="150dp"
@@ -86,28 +120,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/arrow_up_violet" />
-
-    <ImageView
-        android:id="@+id/imageView15"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        android:layout_marginStart="316dp"
-        android:layout_marginBottom="148dp"
-        android:rotation="20"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/arrow_up_orange" />
-
-    <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="169dp"
-        android:layout_height="156dp"
-        android:layout_marginTop="760dp"
-        android:layout_marginEnd="264dp"
-        android:rotation="15"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/arrow_up_red" />
 
     <TextView
         android:id="@+id/textView11"
@@ -170,7 +182,7 @@
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:background="@null"
-            android:inputType="text"
+            android:inputType="textPassword"
             android:padding="12dp"
             android:textColor="#000000" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -208,7 +220,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginEnd="10dp"
         android:hint="Podaj nazwisko"
         app:boxBackgroundColor="#FFFFFF"
         app:boxBackgroundMode="outline"
@@ -236,7 +248,7 @@
         android:id="@+id/textInputLayout2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="10dp"
         android:layout_marginEnd="5dp"
         android:hint="Podaj imię"
         app:boxBackgroundColor="#FFFFFF"
@@ -319,14 +331,13 @@
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
         android:text="Login"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.054"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView27" />
 
     <TextView
         android:id="@+id/textView14"
@@ -343,18 +354,19 @@
 
     <Button
         android:id="@+id/register_complete_button"
-        android:layout_width="160dp"
-        android:layout_height="160dp"
-        android:layout_marginBottom="36dp"
+        android:layout_width="120dp"
+        android:layout_height="110dp"
         android:background="@drawable/arrow_up"
-        android:paddingTop="70dp"
+        android:paddingTop="50dp"
         android:text="ZAREJESTRUJ SIĘ"
         android:textColor="#020202"
+        android:textSize="10sp"
+        android:textStyle="bold"
         app:backgroundTint="@null"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
     <TextView
         android:id="@+id/textView8"
