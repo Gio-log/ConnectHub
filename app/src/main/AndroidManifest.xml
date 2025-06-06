@@ -16,6 +16,9 @@
         android:theme="@style/Theme.ConnectHub"
         tools:targetApi="31">
         <activity
+            android:name=".ui.User_edit"
+            android:exported="false" />
+        <activity
             android:name=".ui.Chat"
             android:exported="false" />
         <activity

@@ -65,7 +65,7 @@ class Main_menu : AppCompatActivity() {
         val clickableSpanNoInterests = object : ClickableSpan() {
             override fun onClick(widget: View) {
                 Toast.makeText(widget.context, "Kliknąłeś bez zainteresowań", Toast.LENGTH_SHORT).show()
-                val intent = Intent(this@Main_menu, Category_change::class.java)
+                val intent = Intent(this@Main_menu, User_edit::class.java)
                 intent.putExtra("access_token", access_token)
                 intent.putExtra("token_type", token_type)
                 intent.putExtra("login", login)
