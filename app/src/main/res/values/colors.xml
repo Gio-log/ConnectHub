@@ -14,9 +14,5 @@
     <color name="KolorMotywCiemnyTło">#2A2C35</color>
     <color name="KolorMotywCiemnyIkony">#E7EFE7</color>
     <color name="KolorZarejestrujSie">#05B4FF</color>
-    <color name="Kolortlo1">#509DDC</color>
-    <color name="Kolortlo2">#DC5050</color>
-    <color name="Kolortlo3">#CC9E80</color>
-    <color name="Kolortlo4">#AD63D3</color>
-    <color name="Kolortlo5">#EBCD79</color>
+    <color name="Kolortlo2">#DB7575</color>
 </resources>

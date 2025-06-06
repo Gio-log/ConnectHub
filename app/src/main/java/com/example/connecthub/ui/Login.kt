@@ -68,6 +68,7 @@ class Login : AppCompatActivity() {
                         val intent = Intent(this@Login, Main_menu::class.java)
                         intent.putExtra("access_token", access_token)
                         intent.putExtra("token_type", token_type)
+                        intent.putExtra("login", login.text.toString())
                         startActivity(intent)
                     } else {
                         val errorBody = response.errorBody()?.string()
