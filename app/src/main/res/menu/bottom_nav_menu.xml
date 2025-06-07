@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/nav_Main_menu"
-        android:icon="@drawable/arrow_up"
+        android:icon="@drawable/ic_launcher_foreground"
         android:title="" />
     <item
         android:id="@+id/nav_Users"

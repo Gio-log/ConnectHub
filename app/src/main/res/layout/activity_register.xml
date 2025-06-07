@@ -354,8 +354,8 @@
 
     <Button
         android:id="@+id/register_complete_button"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
         android:background="@drawable/arrow_up"
         android:paddingTop="50dp"
         android:text="ZAREJESTRUJ SIĘ"
