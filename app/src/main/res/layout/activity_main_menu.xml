@@ -8,29 +8,29 @@
     tools:context=".ui.Main_menu">
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/imageView8"
         android:layout_width="141dp"
         android:layout_height="160dp"
-        android:layout_marginEnd="300dp"
-        android:layout_marginBottom="700dp"
+        android:layout_marginEnd="308dp"
+        android:layout_marginBottom="768dp"
         android:rotation="65"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/arrow_up_yellow" />
 
     <ImageView
-        android:id="@+id/imageView35"
+        android:id="@+id/imageView9"
         android:layout_width="96dp"
         android:layout_height="97dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="176dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="172dp"
         android:rotation="50"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/arrow_up_yellow" />
 
     <ImageView
-        android:id="@+id/imageView52"
+        android:id="@+id/imageView10"
         android:layout_width="96dp"
         android:layout_height="97dp"
         android:layout_marginEnd="4dp"
@@ -41,7 +41,7 @@
         app:srcCompat="@drawable/arrow_up" />
 
     <ImageView
-        android:id="@+id/imageView50"
+        android:id="@+id/imageView11"
         android:layout_width="96dp"
         android:layout_height="97dp"
         android:layout_marginEnd="136dp"
@@ -52,51 +52,51 @@
         app:srcCompat="@drawable/arrow_up_yellow" />
 
     <ImageView
-        android:id="@+id/imageView51"
+        android:id="@+id/imageView17"
         android:layout_width="96dp"
         android:layout_height="97dp"
-        android:layout_marginEnd="292dp"
-        android:layout_marginBottom="276dp"
+        android:layout_marginEnd="280dp"
+        android:layout_marginBottom="320dp"
         android:rotation="270"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/arrow_up_yellow" />
 
     <ImageView
-        android:id="@+id/imageView17"
+        android:id="@+id/imageView33"
         android:layout_width="113dp"
         android:layout_height="117dp"
-        android:layout_marginEnd="264dp"
-        android:layout_marginBottom="112dp"
+        android:layout_marginEnd="260dp"
+        android:layout_marginBottom="164dp"
         android:rotation="90"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/arrow_up_violet" />
 
     <ImageView
-        android:id="@+id/imageView47"
+        android:id="@+id/imageView34"
         android:layout_width="113dp"
         android:layout_height="117dp"
-        android:layout_marginEnd="124dp"
-        android:layout_marginBottom="740dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="784dp"
         android:rotation="90"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/arrow_up_violet" />
 
     <ImageView
-        android:id="@+id/imageView44"
-        android:layout_width="89dp"
-        android:layout_height="93dp"
-        android:layout_marginEnd="148dp"
-        android:layout_marginBottom="400dp"
+        android:id="@+id/imageView35"
+        android:layout_width="117dp"
+        android:layout_height="101dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="384dp"
         android:rotation="280"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/arrow_up_violet" />
 
     <ImageView
-        android:id="@+id/imageView61"
+        android:id="@+id/imageView43"
         android:layout_width="89dp"
         android:layout_height="93dp"
         android:layout_marginEnd="24dp"
@@ -107,33 +107,22 @@
         app:srcCompat="@drawable/arrow_up" />
 
     <ImageView
-        android:id="@+id/imageView34"
+        android:id="@+id/imageView44"
         android:layout_width="113dp"
         android:layout_height="117dp"
-        android:layout_marginStart="300dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginBottom="56dp"
         android:rotation="40"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/arrow_up_violet" />
 
     <ImageView
-        android:id="@+id/imageView33"
+        android:id="@+id/imageView45"
         android:layout_width="94dp"
         android:layout_height="101dp"
-        android:layout_marginStart="156dp"
-        android:layout_marginBottom="44dp"
-        android:rotation="15"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/arrow_up_orange" />
-
-    <ImageView
-        android:id="@+id/imageView49"
-        android:layout_width="94dp"
-        android:layout_height="101dp"
-        android:layout_marginStart="228dp"
-        android:layout_marginBottom="636dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginBottom="72dp"
         android:rotation="15"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -141,6 +130,17 @@
 
     <ImageView
         android:id="@+id/imageView46"
+        android:layout_width="94dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginBottom="664dp"
+        android:rotation="15"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/arrow_up_orange" />
+
+    <ImageView
+        android:id="@+id/imageView47"
         android:layout_width="94dp"
         android:layout_height="101dp"
         android:layout_marginStart="316dp"
@@ -151,18 +151,18 @@
         app:srcCompat="@drawable/arrow_up_orange" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/imageView48"
         android:layout_width="133dp"
         android:layout_height="169dp"
-        android:layout_marginStart="324dp"
-        android:layout_marginBottom="668dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginBottom="704dp"
         android:rotation="180"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/arrow_up_blue" />
 
     <ImageView
-        android:id="@+id/imageView43"
+        android:id="@+id/imageView49"
         android:layout_width="109dp"
         android:layout_height="119dp"
         android:layout_marginStart="160dp"
@@ -173,51 +173,51 @@
         app:srcCompat="@drawable/arrow_up_blue" />
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/imageView50"
         android:layout_width="169dp"
         android:layout_height="156dp"
-        android:layout_marginTop="750dp"
-        android:layout_marginEnd="280dp"
+        android:layout_marginTop="704dp"
+        android:layout_marginEnd="260dp"
         android:rotation="15"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/arrow_up_red" />
 
     <ImageView
-        android:id="@+id/imageView45"
-        android:layout_width="70dp"
-        android:layout_height="124dp"
-        android:layout_marginTop="260dp"
-        android:layout_marginEnd="292dp"
+        android:id="@+id/imageView51"
+        android:layout_width="88dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="288dp"
         android:rotation="280"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/arrow_up_red" />
 
     <ImageView
-        android:id="@+id/imageView53"
+        android:id="@+id/imageView52"
         android:layout_width="70dp"
         android:layout_height="124dp"
-        android:layout_marginTop="144dp"
-        android:layout_marginEnd="320dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="316dp"
         android:rotation="280"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/arrow_up" />
 
     <ImageView
-        android:id="@+id/imageView48"
+        android:id="@+id/imageView53"
         android:layout_width="70dp"
         android:layout_height="124dp"
         android:layout_marginTop="80dp"
-        android:layout_marginEnd="248dp"
+        android:layout_marginEnd="228dp"
         android:rotation="280"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/arrow_up_red" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/imageView61"
         android:layout_width="159dp"
         android:layout_height="67dp"
         android:layout_marginTop="16dp"
@@ -234,14 +234,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:focusable="true"
         android:text="test"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:clickable="true"
-        android:focusable="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView61" />
 
     <TextView
         android:id="@+id/textView10"
@@ -308,5 +308,6 @@
         app:menu="@menu/bottom_nav_menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:labelVisibilityMode="unlabeled" />
 </androidx.constraintlayout.widget.ConstraintLayout>

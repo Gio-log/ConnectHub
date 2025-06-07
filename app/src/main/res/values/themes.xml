@@ -3,7 +3,17 @@
     <style name="Base.Theme.ConnectHub" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="bottomNavigationStyle">@style/CustomBottomNavigation</item>
     </style>
 
     <style name="Theme.ConnectHub" parent="Base.Theme.ConnectHub" />
+    <style name="CustomBottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconSize">30dp</item> <!-- smaller icons -->
+        <item name="itemTextAppearanceActive">@style/BottomNavText</item>
+        <item name="itemTextAppearanceInactive">@style/BottomNavText</item>
+    </style>
+
+    <style name="BottomNavText" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">0sp</item> <!-- or 0sp if icon-only -->
+    </style>
 </resources>
