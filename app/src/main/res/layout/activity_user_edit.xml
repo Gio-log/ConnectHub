@@ -232,10 +232,23 @@
         android:id="@+id/menu"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        app:menu="@menu/bottom_nav_menu"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:labelVisibilityMode="unlabeled"
+        app:itemIconSize="24dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ustawienia użytkownika placeholder"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/menu"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/bottom_nav_menu"
-        app:labelVisibilityMode="unlabeled" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView121" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,21 +10,18 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.connecthub.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
-class Chat : AppCompatActivity() {
+class Users : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_chat)
+        setContentView(R.layout.activity_users)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val access_token = intent.getStringExtra("access_token")
-        val token_type = intent.getStringExtra("token_type")
-        val login = intent.getStringExtra("login")
         val bottomNav = findViewById<BottomNavigationView>(R.id.menu)
-        bottomNav.selectedItemId = R.id.nav_Chat
+        bottomNav.selectedItemId = R.id.nav_Users
 
 
         bottomNav.setOnItemSelectedListener { item ->
@@ -69,8 +66,8 @@ class Chat : AppCompatActivity() {
             }
 
         }
-        if (this::class.java != Chat::class.java) {
-            startActivity(Intent(this, Chat::class.java))
+        if (this::class.java != Users::class.java) {
+            startActivity(Intent(this, Users::class.java))
         }
         overridePendingTransition(0, 0)
     }

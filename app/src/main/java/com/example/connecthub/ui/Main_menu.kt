@@ -15,6 +15,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.connecthub.R
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class Main_menu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,6 +46,57 @@ class Main_menu : AppCompatActivity() {
         val spannableStringNoInterests = SpannableString(NoInterestsFullText)
         val startNoInterests = NoInterestsFullText.indexOf(clickabletext)
         val endNoInterests = startNoInterests + clickabletext.length
+
+        val bottomNav = findViewById<BottomNavigationView>(R.id.menu)
+        bottomNav.selectedItemId = R.id.nav_Main_menu
+
+
+        bottomNav.setOnItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.nav_Main_menu -> {
+                    if (this !is Main_menu) {
+                        val intent = Intent(this, Main_menu::class.java)
+                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
+                        startActivity(intent)
+                        finish()
+                    }
+                    true
+                }
+                R.id.nav_Users -> {
+                    if (this !is Users) {
+                        val intent = Intent(this, Users::class.java)
+                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
+                        startActivity(intent)
+                        finish()
+                    }
+                    true
+                }
+                R.id.nav_Chat -> {
+                    if (this !is Chat) {
+                        val intent = Intent(this, Chat::class.java)
+                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
+                        startActivity(intent)
+                        finish()
+                    }
+                    true
+                }
+                R.id.nav_Settings -> {
+                    if (this !is User_edit) {
+                        val intent = Intent(this, User_edit::class.java)
+                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
+                        startActivity(intent)
+                        finish()
+                    }
+                    true
+                }
+                else -> false
+            }
+
+        }
+        if (this::class.java != Main_menu::class.java) {
+            startActivity(Intent(this, Main_menu::class.java))
+        }
+        overridePendingTransition(0, 0)
 
         val clickableSpanNoTalks = object : ClickableSpan() {
             override fun onClick(widget: View) {
@@ -104,6 +156,7 @@ class Main_menu : AppCompatActivity() {
             hideSystemUI()
         }
     }
+
     private fun hideSystemUI() {
         window.decorView.systemUiVisibility = (
                 View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
